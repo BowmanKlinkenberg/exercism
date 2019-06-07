@@ -1,18 +1,13 @@
 object SumOfMultiples {
   def sum(factors: Set[Int], limit: Int): Int = {
-    val multiples: Array[Int] = for ( i <- 1 until limit if  ){
-      for (f <- factors ){
-        if()
-      }
-    }
-  }
+    val multiples: Seq[Int] = for {
+      i <- List.range(1, limit)
+      f <- factors
+      if (i % f == 0)
+    } yield i
 
-  def isAnyDiv(factors: Set[Int], i: Int): Boolean = {
-    // return true if i is divisible by any of the factors
-    for (f <- factors){
-      if(f % i == 0) true else false
-    }
+    // zero must be appended in case the set was empty, to guarantee that reduce returns an Int
+    val unique: Set[Int] = multiples.toSet + 0
+    unique.reduce(_ + _)
   }
-
 }
-
