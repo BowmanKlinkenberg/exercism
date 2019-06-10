@@ -1,7 +1,7 @@
 object SumOfMultiples {
   def sum(factors: Set[Int], limit: Int): Int = {
     val multiples: Seq[Int] = for {
-      i <- List.range(1, limit)
+      i <- List.range(factors.min, limit)
       f <- factors
       if (i % f == 0)
     } yield i

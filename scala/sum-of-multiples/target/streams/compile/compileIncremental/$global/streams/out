@@ -17,11 +17,11 @@
 [0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /Users/z067139/git-public/exercism/scala/sum-of-multiples/target/scala-2.12/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.1:compile for Scala 2.12.1[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.1:compile for Scala 2.12.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 302997e3 for Scala compiler version 2.12.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 207b2a4d for Scala compiler version 2.12.1[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/lib/resources.jar:/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/lib/rt.jar:/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/lib/sunrsasign.jar:/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/lib/jsse.jar:/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/lib/jce.jar:/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/lib/charsets.jar:/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/lib/jfr.jar:/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/classes:/Users/z067139/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/z067139/git-public/exercism/scala/sum-of-multiples/target/scala-2.12/classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 4.678206281 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 4.777103156 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
