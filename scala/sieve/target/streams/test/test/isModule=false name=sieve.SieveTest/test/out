@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mSieveTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- no primes under two[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- find first prime[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- find primes up to 10 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  List(2, 4, 8) was not equal to List(2, 3, 5, 7) (SieveTest.scala:17)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- limit is prime (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- find primes up to 1000 (pending)[0m[0m
