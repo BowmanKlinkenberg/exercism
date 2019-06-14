@@ -1,0 +1,1 @@
+val shout = raw"[A-Z]".r

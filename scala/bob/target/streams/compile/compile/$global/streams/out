@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/bob/src/main/scala/Bob.scala:5:29: invalid string interpolation: `$$', `$'ident or `$'BlockExpr expected[0m
+[0m[[0m[31merror[0m] [0m[0m  val question: Regex = raw".*\?$".r[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/bob/src/main/scala/Bob.scala:5:34: unclosed string literal[0m
+[0m[[0m[31merror[0m] [0m[0m  val question: Regex = raw".*\?$".r[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
