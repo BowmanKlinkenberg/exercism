@@ -1,0 +1,127 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:1:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.{Matchers, FunSuite}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:4:28: not found: type FunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass SpaceAgeTest extends FunSuite with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:4:42: not found: type Matchers[0m
+[0m[[0m[31merror[0m] [0m[0mclass SpaceAgeTest extends FunSuite with Matchers {[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:6:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("age on Earth") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:7:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onEarth(1000000000) should be (31.69 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:7:41: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onEarth(1000000000) should be (31.69 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:7:51: value +- is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onEarth(1000000000) should be (31.69 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:10:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("age on Mercury") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:11:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:12:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onMercury(2134835688) should be (280.88 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:12:43: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onMercury(2134835688) should be (280.88 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:12:54: value +- is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onMercury(2134835688) should be (280.88 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:15:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("age on Venus") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:16:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:17:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onVenus(189839836) should be (9.78 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:17:40: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onVenus(189839836) should be (9.78 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:17:49: value +- is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onVenus(189839836) should be (9.78 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:20:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("age on Mars") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:21:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:22:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onMars(2.329871239E9) should be (39.25 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:22:43: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onMars(2.329871239E9) should be (39.25 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:22:53: value +- is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onMars(2.329871239E9) should be (39.25 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:25:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("age on Jupiter") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:26:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:27:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onJupiter(901876382) should be (2.41 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:27:42: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onJupiter(901876382) should be (2.41 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:27:51: value +- is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onJupiter(901876382) should be (2.41 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:30:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("age on Saturn") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:31:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:32:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onSaturn(3.0E9) should be (3.23 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:32:37: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onSaturn(3.0E9) should be (3.23 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:32:46: value +- is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onSaturn(3.0E9) should be (3.23 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:35:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("age on Uranus") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:36:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:37:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onUranus(3.210123456E9) should be (1.21 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:37:45: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onUranus(3.210123456E9) should be (1.21 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:37:54: value +- is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onUranus(3.210123456E9) should be (1.21 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:40:3: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m  test("age on Neptune") {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:41:5: not found: value pending[0m
+[0m[[0m[31merror[0m] [0m[0m    pending[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:42:5: not found: value SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onNeptune(8.210123456E9) should be (1.58 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:42:46: not found: value be[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onNeptune(8.210123456E9) should be (1.58 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/test/scala/SpaceAgeTest.scala:42:55: value +- is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m    SpaceAge.onNeptune(8.210123456E9) should be (1.58 +- 0.01)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m42 errors found[0m

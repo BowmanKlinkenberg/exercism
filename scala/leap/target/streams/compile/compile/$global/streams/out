@@ -1,0 +1,9 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/leap/src/main/scala/Leap.scala:3:25: missing argument list for method isExcept in object Leap[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `isExcept _` or `isExcept(_)` instead of `isExcept`.[0m
+[0m[[0m[31merror[0m] [0m[0m    (year % 4 == 0) && !isExcept[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/leap/src/main/scala/Leap.scala:5:36: not found: value year[0m
+[0m[[0m[31merror[0m] [0m[0m  private def isExcept(year: Int = year): Boolean =[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

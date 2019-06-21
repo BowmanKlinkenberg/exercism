@@ -1,0 +1,6 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mDartsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- A dart lands outside the target[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- A dart lands just in the border of the target[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- A dart lands in the middle circle[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- A dart lands right in the border between outside and middle circles[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- A dart lands in the inner circle[0m[0m

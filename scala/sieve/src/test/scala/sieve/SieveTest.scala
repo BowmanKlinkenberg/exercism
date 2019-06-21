@@ -18,12 +18,10 @@ class SieveTest extends FunSuite with Matchers {
   }
 
   test("limit is prime") {
-    pending
     Sieve.primes(13) should be(List(2, 3, 5, 7, 11, 13))
   }
 
   test("find primes up to 1000") {
-    pending
     Sieve.primes(1000) should be(
       List(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61,
         67, 71, 73, 79, 83, 89, 97, 101, 103, 107, 109, 113, 127, 131, 137, 139,

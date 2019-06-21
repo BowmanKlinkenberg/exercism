@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/space-age/src/main/scala/SpaceAge.scala:3:39: missing argument list for method earthYears in object SpaceAge[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `earthYears _` or `earthYears(_)` instead of `earthYears`.[0m
+[0m[[0m[31merror[0m] [0m[0m  def onEarth(seconds: Int): Double = earthYears.toDouble[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
