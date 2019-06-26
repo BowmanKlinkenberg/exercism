@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/Users/z067139/git-public/exercism/scala/grade-school/src/main/scala/School.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(School)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /Users/z067139/git-public/exercism/scala/grade-school/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.1:compile for Scala 2.12.1[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.1:compile for Scala 2.12.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 1b9786af for Scala compiler version 2.12.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/lib/resources.jar:/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/lib/rt.jar:/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/lib/sunrsasign.jar:/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/lib/jsse.jar:/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/lib/jce.jar:/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/lib/charsets.jar:/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/lib/jfr.jar:/Users/z067139/.sdkman/candidates/java/8.0.212-zulu/jre/classes:/Users/z067139/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/z067139/git-public/exercism/scala/grade-school/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 4.49040311 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m

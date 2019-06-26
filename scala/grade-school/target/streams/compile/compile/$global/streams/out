@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/grade-school/src/main/scala/School.scala:9:17: value update is not a member of School.this.DB[0m
+[0m[[0m[31merror[0m] [0m[0m    case Nil => _db(g) = Seq(name)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/z067139/git-public/exercism/scala/grade-school/src/main/scala/School.scala:10:15: value update is not a member of School.this.DB[0m
+[0m[[0m[31merror[0m] [0m[0m    case _ => _db(g) = grade(g) :+ name[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
